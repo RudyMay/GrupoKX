@@ -14870,6 +14870,13 @@ body.active-light-mode {
   background-color: var(--color-white);
   color: #65676b;
 }
+
+body.active-light-mode .popup-mobile-menu .mainmenu li a:hover{
+  color: var(--color-primary) !important;
+}
+
+
+
 body.active-light-mode h1,
 body.active-light-mode h2,
 body.active-light-mode h3,
