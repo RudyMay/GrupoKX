@@ -169,37 +169,35 @@
 
 @font-face {
   font-family: "Exobold";
-  src: url('/assets/fonts/Exo2-Bold.ttf');
+  src: url('../fonts/Exo2-Bold.ttf');
 }
 @font-face{
   font-family: 'ExoMedium';
-  src: url('/assets/fonts/Exo2-Medium.ttf');
+  src: url('../fonts/Exo2-Medium.ttf');
 }
 @font-face{
   font-family: 'ExoBlack';
-  src: url('/assets/fonts/Exo2-Black.ttf');
+  src: url('../fonts/Exo2-Black.ttf');
 }
 
 @font-face {
   font-family: 'ExoRegular';
-  src: url('/assets/fonts/Exo2-Regular.ttf');
+  src: url('../fonts/Exo2-Regular.ttf');
 }
 
 @font-face{
   font-family: 'ExoItalic';
-  src: url('/assets/fonts/Exo2-Italic.ttf');
+  src: url('../fonts/Exo2-Italic.ttf');
 }
 
 @font-face{
   font-family: "ExoExtraBold";
-  src: url('/assets/fonts/Exo2-ExtraBold.ttf');
+  src: url('../fonts/Exo2-ExtraBold.ttf');
 }
 @font-face {
   font-family: "ExoMediumItalic";
-  src: url('/assets/fonts/Exo2-MediumItalic.ttf');
+  src: url('../fonts/Exo2-MediumItalic.ttf');
 }
-
-
 
 #historia1, #historia2{
   font-family: "ExoRegular";
