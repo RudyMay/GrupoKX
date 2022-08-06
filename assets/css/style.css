@@ -164,6 +164,49 @@
   --h4: 24px;
   --h5: 18px;
   --h6: 16px;
+
+}
+
+@font-face {
+  font-family: "Exobold";
+  src: url('/assets/fonts/Exo2-Bold.ttf');
+}
+@font-face{
+  font-family: 'ExoMedium';
+  src: url('/assets/fonts/Exo2-Medium.ttf');
+}
+@font-face{
+  font-family: 'ExoBlack';
+  src: url('/assets/fonts/Exo2-Black.ttf');
+}
+
+@font-face {
+  font-family: 'ExoRegular';
+  src: url('/assets/fonts/Exo2-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'ExoItalic';
+  src: url('/assets/fonts/Exo2-Italic.ttf');
+}
+
+@font-face{
+  font-family: "ExoExtraBold";
+  src: url('/assets/fonts/Exo2-ExtraBold.ttf');
+}
+@font-face {
+  font-family: "ExoMediumItalic";
+  src: url('/assets/fonts/Exo2-MediumItalic.ttf');
+}
+
+
+
+#historia1, #historia2{
+  font-family: "ExoRegular";
+}
+
+.title{
+  font-family: "ExoBlack" !important;
 }
 
 /**
@@ -758,6 +801,7 @@ p.has-background {
 p.b1 {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
+  font-family: "ExoRegular";
 }
 p.b2 {
   font-size: var(--font-size-b2);
@@ -8700,6 +8744,7 @@ body.sal-disabled [data-sal|=flip] {
   display: inline-block;
   position: relative;
   text-align: left;
+  font-family: "ExoBold";
 }
 
 .cd-words-wrapper b {
@@ -9018,6 +9063,7 @@ xclip
   height: 80px;
   line-height: 80px;
   transition: 0.3s;
+  font-family: "ExoRegular";
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .mainmenu-nav .mainmenu > li > a {
@@ -9796,6 +9842,7 @@ a.btn-default.round,
 button.btn-default.round,
 div.btn-default.round {
   border-radius: 100px;
+  font-family: "ExoMediumItalic";
 }
 a.btn-default.square,
 button.btn-default.square,
@@ -10501,6 +10548,7 @@ div.btn-default.rounded-player.sm-size {
   padding: 0;
   background: transparent;
   position: relative;
+  font-family: "ExoRegular";
 }
 .rn-accordion-style .card .card-header button::before {
   position: absolute;
@@ -10523,6 +10571,7 @@ div.btn-default.rounded-player.sm-size {
   color: var(--color-body);
   padding: 30px 20px;
   border-top: 1px solid var(--color-border);
+  font-family: "ExoRegular";
 }
 .rn-accordion-style .card + .card {
   margin-top: 20px;
@@ -13975,7 +14024,7 @@ iframe {
     Slider Style One  
 -------------------------*/
 .slider-style-1 .inner .subtitle {
-  font-family: var(--font-primary);
+  font-family: "ExoMedium";
   font-size: 18px;
   letter-spacing: 0.5px;
   display: block;
@@ -14000,18 +14049,23 @@ iframe {
   }
 }
 .slider-style-1 .inner .title {
-  font-family: var(--font-primary);
+  font-family: "ExoExtraBold";
   margin-bottom: 25px;
   display: inline-block;
 }
 .slider-style-1 .inner .title span {
   display: inline-block;
+  
+}
+
+#words b{
+  font-family: "ExoBold";
 }
 .slider-style-1 .inner .title span label {
   margin-bottom: 0;
 }
 .slider-style-1 .inner .description {
-  font-family: var(--font-primary);
+  font-family: "ExoMedium";
   padding: 0 22%;
   font-size: 25px;
   line-height: 1.7;
@@ -14870,13 +14924,6 @@ body.active-light-mode {
   background-color: var(--color-white);
   color: #65676b;
 }
-
-body.active-light-mode .popup-mobile-menu .mainmenu li a:hover{
-  color: var(--color-primary) !important;
-}
-
-
-
 body.active-light-mode h1,
 body.active-light-mode h2,
 body.active-light-mode h3,
