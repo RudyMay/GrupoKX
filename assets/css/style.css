@@ -7623,11 +7623,12 @@ textarea:-ms-input-placeholder {
 ==========================*/
 /* Theme Gradient */
 .theme-gradient, .counter-style-1 .count-number {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  /*background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;*/
   text-transform: capitalize;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right bottom, #fff900, #2cf674, #00dfd8, #00bcff, #0089ff);
 }
 
 .bg-theme-gradient {
@@ -9719,7 +9720,8 @@ div.btn-default {
   border-color: transparent;
   border-radius: 8px;
   background-color: transparent;
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
+  /*background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;*/
+  background: linear-gradient(to right, #0575e6, #021b79); 
   transition-duration: 300ms;
   color: var(--color-white);
   font-size: 16px;
@@ -11176,9 +11178,10 @@ div.btn-default.rounded-player.sm-size {
   font-style: italic;
 }
 .testimonial-style-two .thumbnail {
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;
+  /*background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98%/200% 100%;*/
   border-radius: 100%;
   padding: 10px;
+  background: linear-gradient(95deg, #fff900 15%, #00dfd8 45%, #2cf674 75%, #00bcff 100%) 98%/200% 100%;
 }
 .testimonial-style-two .thumbnail img {
   border-radius: 100%;
